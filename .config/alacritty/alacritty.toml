@@ -1,0 +1,24 @@
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+live_config_reload = true
+
+[font]
+size = 16.0
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+opacity = 1 
+
+[window.padding]
+x = 18
+y = 16
+
+[env]
+TERM = "xterm-256color"
