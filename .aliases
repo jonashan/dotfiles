@@ -6,6 +6,10 @@ alias te="cd ~/Development/TeamEffect"
 alias ..="cd .."
 alias bindev="./bin/dev"
 alias bd="./bin/dev"
+alias dotfiles="cd ~/dotfiles"
+
+# Tmux
+alias tm="tmux"
 
 # Docker
 alias dcr="docker-compose run"

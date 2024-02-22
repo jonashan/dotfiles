@@ -10,6 +10,7 @@ These are the steps that are required to setup the dotfiles on OSX and UNIX syst
 - nvim
 - alacritty (Terminal Emulator)
 - GNU stow (Used for handling the symlinks)
+- tmp - Tmux Package Manager
 
 ### Ruby gems
 - Rubocop - For formatting and linting inside nvim
