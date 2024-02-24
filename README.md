@@ -20,6 +20,7 @@ These are the steps that are required to setup the dotfiles on OSX and UNIX syst
 - eslint_d
 - prettier
 - stylua
+- html_lsp
 
 ## Setup symlinks
 - Clone repo to home folder
