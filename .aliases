@@ -2,11 +2,16 @@
 alias v="vim"
 alias cask="brew cask"
 alias dev="cd ~/Development"
-alias te="cd ~/Development/TeamEffect"
 alias ..="cd .."
 alias bindev="./bin/dev"
 alias bd="./bin/dev"
+
+# Repos
+alias te="cd ~/Development/TeamEffect"
 alias dotfiles="cd ~/dotfiles"
+
+# Misc
+alias la="ls -la"
 
 # Tmux
 alias tm="tmux"
