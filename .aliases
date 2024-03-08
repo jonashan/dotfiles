@@ -10,6 +10,9 @@ alias bd="./bin/dev"
 alias te="cd ~/Development/TeamEffect"
 alias dotfiles="cd ~/dotfiles"
 
+# Second brain
+alias sb="cd ~/SecondBrain"
+
 # Misc
 alias la="ls -la"
 

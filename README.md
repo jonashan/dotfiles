@@ -28,13 +28,13 @@ These are the steps that are required to setup the dotfiles on OSX and UNIX syst
 - `stow .` will create the symlinks to the parent folder (Home dir)
 
 ## 05. Setup Aliases
-`echo ~/.aliases > .zshrc`
+`echo ~/.aliases > ~/.zshrc`
 
 ## 06. Setup ENVvars
-`echo ~/.envvars > .zshrc`
+`echo ~/.envvars > ~(.zshrc`
 
 ## 07. Manual symlinks
-- `ln -sf "$SECOND_BRAIN" SecondBrain`
+- `ln -sf "$SECOND_BRAIN" ~/SecondBrain`
 
 
 
