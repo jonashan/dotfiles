@@ -14,6 +14,7 @@ These are the steps that are required to setup the dotfiles on OSX and UNIX syst
 
 ### 02. Ruby gems
 - Rubocop - For formatting and linting inside nvim
+- Tmuxinator - For creating tmux sessions
 
 ### 03. Mason (nvim)
 - Rubocop

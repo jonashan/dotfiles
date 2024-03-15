@@ -1,0 +1,13 @@
+# /Users/jonashansen/.config/tmuxinator/teameffect.yml
+
+name: teameffect
+root: <%= ENV['REPOS'] %>/Teameffect
+windows:
+  - nvim: nvim
+  - server: 
+      layout: main-horizontal
+      panes:
+        - ./bin/dev
+        - bundle exec rails console
+  - git: lazygit
+  - redis: redis-server
