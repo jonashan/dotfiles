@@ -1,1 +1,2 @@
 export SECOND_BRAIN=("/Users/jonashansen/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain")
+export REPOS=$HOME/Development

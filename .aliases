@@ -18,6 +18,7 @@ alias la="ls -la"
 
 # Tmux
 alias tm="tmux"
+alias mux="tmuxinator"
 
 # Docker
 alias dcr="docker-compose run"
