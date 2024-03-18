@@ -13,7 +13,7 @@ for file in *; do
     else
         # Create symlink if it's not a directory
         if [ ! -d "$file" ]; then
-            ln -s "$(pwd)/${file}" "${DEST_DIR}/${file}"
+            ln -sf "$(pwd)/${file}" "${DEST_DIR}/${file}"
             echo "Created symlink: $(pwd)/${file} -> ${DEST_DIR}/${file}"
         fi
     fi
