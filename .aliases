@@ -25,7 +25,7 @@ alias dcr="docker-compose run"
 alias dc="docker-compose"
 
 # Kamal
-alias kaeri="kamal app exec --reuse -i"
+alias kaeri="kamal app exec --reuse -i -c config/deploy.production.yml"
 
 # Git commands
 alias gcam!="git add . && git commit -am"
