@@ -3,11 +3,11 @@
 name: teameffect
 root: <%= ENV['REPOS'] %>/Teameffect
 windows:
-  - nvim: nvim
-  - server: 
+  - editor:
       layout: main-horizontal
       panes:
-        - ./bin/dev
+        - nvim
         - bundle exec rails console
+  - server: ./bin/dev
   - git: lazygit
   - redis: redis-server
