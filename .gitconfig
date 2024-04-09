@@ -43,3 +43,8 @@
 [user]
 	email = jonas@jonas-hansen.dk
 	name = Jonas Steen Hansen
+[credential]
+	helper = store
+
+[init]
+	defaultBranch = main
