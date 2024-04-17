@@ -24,7 +24,7 @@ func getFileName() string {
 			os.Exit(0)
 		}
 	}
-  return filename
+	return filename
 }
 
 func writeFile(filename string) string {
@@ -45,7 +45,7 @@ func writeFile(filename string) string {
 		"---",
 		datetime,
 		id,
-		"tags: []",
+		"tags:",
 		"---",
 		title,
 		"",
