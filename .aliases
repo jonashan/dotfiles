@@ -12,6 +12,7 @@ alias dotfiles="cd ~/dotfiles"
 
 # Second brain
 alias sb="cd ~/SecondBrain"
+alias sbnv="cd ~/SecondBrain && nvim"
 
 # Misc
 alias la="ls -la"
