@@ -15,7 +15,8 @@ alias sb="cd ~/SecondBrain"
 alias sbnv="cd ~/SecondBrain && nvim"
 
 # Misc
-alias la="ls -la"
+alias ll="ls -lah"
+alias lf="yazi"
 
 # Tmux
 alias tm="tmux"

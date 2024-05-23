@@ -12,7 +12,8 @@ sudo apt install -y \
 	libreadline-dev zlib1g-dev libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev libjemalloc2 \
 	libvips imagemagick libmagickwand-dev \
 	libssl-dev clang \
-	imagemagick libmagickwand-dev
+	imagemagick libmagickwand-dev \
+	yazi
 
 # Clone dotfiles
 echo "Cloning dotfiles"
@@ -75,7 +76,6 @@ sudo usermod -aG docker ${USER}
 sudo docker run -d --restart unless-stopped -p 5432:5432 --name=postgres -e POSTGRES_PASSWORD=postgres postgres
 sudo docker run -d --restart unless-stopped -p 6379:6379 --name=redis redis
 # docker run -d --restart unless-stopped -p 3306:3306 --name=mysql5.7 -e MYSQL_ROOT_PASSWORD= -e MYSQL_ALLOW_EMPTY_PASSWORD=true mysql:5.7
-
 
 # Install Starship
 sudo snap install starship --edge
