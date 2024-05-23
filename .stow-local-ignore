@@ -1,0 +1,6 @@
+^/linux-setup.sh
+\.git
+\.gitignore
+\.gitmodules
+\scripts
+^/README.md
