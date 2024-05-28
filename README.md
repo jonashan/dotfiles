@@ -8,13 +8,18 @@ These are the steps that are required to setup the dotfiles on OSX and UNIX syst
 
 ## 01. Required software
 
-- npm
-- ripgrep
-- nvim
-- alacritty (Terminal Emulator)
-- GNU stow (Used for handling the symlinks)
+- npm - node package manager
+- ripgrep - grep tool
+- nvim - text editor
+- alacritty - Terminal Emulator
+- GNU stow - Used for handling the symlinks
 - tmp - Tmux Package Manager
-- yazy (File manager)
+- yazy - File manager
+- yabai - Window manager
+- skhd - Hotkey daemon
+- jankyborders - Window borders
+- eza - Improved "ls" - If Ubuntu: V. 24+ required
+- mise - Language manager (ruby, nodejs etc.)
 
 ### 02. Ruby gems
 

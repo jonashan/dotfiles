@@ -16,6 +16,7 @@ alias sbnv="cd ~/SecondBrain && nvim"
 
 # Misc
 alias ll="ls -lah"
+alias ls="eza -lh --group-directories-first --icons"
 alias lf="yazi"
 
 # Tmux
@@ -67,8 +68,9 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 # List of directories
 alias lsd='ls -l | grep "^d"'
 
-# LazyGit
-alias lg='lazygit'
+# LazyGit & LazyDocjer
+alias lzg='lazygit'
+alias lzd='lazydocker'
 
 # Nvim
 alias nv='nvim'
