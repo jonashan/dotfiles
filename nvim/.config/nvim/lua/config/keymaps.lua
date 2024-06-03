@@ -3,3 +3,6 @@
 -- Add any additional keymaps here
 --
 -- vim.keymap.set("n", "<leader>nl", vim.lsp.buf.format, {})
+
+-- Obsidian
+vim.keymap.set("n", "<leader>of", ":ObsidianFollowLink<CR>", {})
