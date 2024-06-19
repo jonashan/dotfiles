@@ -14,8 +14,8 @@ style = "Regular"
 [window]
 decorations = "buttonless"
 dynamic_padding = false
-opacity = 1 
 option_as_alt = "OnlyLeft"
+opacity = 0.85
 
 
 [window.padding]
