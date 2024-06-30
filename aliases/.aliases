@@ -1,5 +1,4 @@
 # shortcuts
-alias v="vim"
 alias cask="brew cask"
 alias dev="cd ~/Development"
 alias ..="cd .."
@@ -73,7 +72,8 @@ alias lzg='lazygit'
 alias lzd='lazydocker'
 
 # Nvim
-alias nv='nvim'
+alias nv="nvim"
+alias v="nvim"
 
 # One of @janmoesen’s ProTip™s
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
