@@ -19,6 +19,7 @@ alias sbnv="cd ~/SecondBrain && nvim"
 
 # Misc
 alias ll="ls -lah"
+alias la="ls -lah"
 alias ls="eza -lh --group-directories-first --icons"
 alias lf="yazi"
 
