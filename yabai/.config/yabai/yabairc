@@ -24,6 +24,7 @@ yabai -m rule --add app="^Finder$" manage=off
 yabai -m rule --add app="^Raycast$" manage=off
 yabai -m rule --add app="^Activity Monitor$" manage=off
 yabai -m rule --add app="^Minecraft$" manage=off
+yabai -m rule --add app="^RuneLite$" manage=off
 
 # Adding borders to active windows - https://github.com/FelixKratz/JankyBorders
 borders active_color=0xffe1e3e4 inactive_color=0xff494d64 width=3.0 &
