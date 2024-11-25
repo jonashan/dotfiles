@@ -27,6 +27,9 @@ alias lf="yazi"
 alias tm="tmux"
 alias mux="tmuxinator"
 
+# Zellij
+alias z="zellij"
+
 # Docker
 alias dcr="docker-compose run"
 alias dc="docker-compose"
@@ -58,11 +61,10 @@ alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resourc
 
 # Rails development
 alias r="rails"
-alias rake:migrate="rake db:migrate"
-alias rake:seed="rake db:seed"
-alias db:drop="rake db:drop"
-alias db:setup="rake db:setup"
+alias db:drop="rails db:drop"
+alias db:setup="rails db:setup"
 alias cop="rubocop"
+alias be="bundle exec"
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
