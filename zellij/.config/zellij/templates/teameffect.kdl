@@ -1,12 +1,12 @@
 layout {
     cwd "/Users/jonashansen/Development/TeamEffect"
     tab name="CLI" hide_floating_panes=true {
-        pane command="rails c"
+        pane
         pane size=1 borderless=true {
             plugin location="zellij:compact-bar"
         }
     }
-    tab name="Code" hide_floating_panes=true {
+    tab name="Code" focus=true hide_floating_panes=true {
         pane command="nvim"
         pane size=1 borderless=true {
             plugin location="zellij:compact-bar"
