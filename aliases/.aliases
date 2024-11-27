@@ -29,6 +29,8 @@ alias mux="tmuxinator"
 
 # Zellij
 alias z="zellij"
+alias zka="zellij ka -y"
+alias zte="zellij --layout ~/dotfiles/zellij/.config/zellij/templates/teameffect.kdl"
 
 # Docker
 alias dcr="docker-compose run"
