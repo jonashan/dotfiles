@@ -4,6 +4,9 @@
 
 vim.g.copilot_filetypes = { markdown = true }
 
+-- Disable swap files
+vim.opt.swapfile = false
+
 -- transparent background
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
