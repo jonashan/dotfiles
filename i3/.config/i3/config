@@ -21,7 +21,6 @@ set $alt Mod1
 font pango:CaskaydiaMono Nerd Font 8
 
 # Gaps
-gaps outer 5
 gaps inner 10
 
 # EXECS
