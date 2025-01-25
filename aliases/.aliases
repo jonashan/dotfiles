@@ -23,9 +23,8 @@ alias la="ls -lah"
 alias ls="eza -lh --group-directories-first --icons"
 alias lf="yazi"
 
-# Tmux
-alias tm="tmux"
-alias mux="tmuxinator"
+# I3
+alias i3config="nvim ~/.config/i3/config"
 
 # Zellij
 alias z="zellij"
