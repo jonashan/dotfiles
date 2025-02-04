@@ -1,7 +1,7 @@
 if type "xrandr"; then
   for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
-    MONITOR=$m polybar --reload example & # htop &
+    MONITOR=$m polybar --reload top & # htop &
   done
 else
-  polybar --reload example & # toph &
+  polybar --reload top & # toph &
 fi
