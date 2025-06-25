@@ -1,0 +1,90 @@
+# shortcuts
+alias cask="brew cask"
+alias dev="cd ~/Development"
+alias bindev="./bin/dev"
+alias bd="./bin/dev"
+
+# Directories
+alias cd="z"
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# Repos
+alias te="cd ~/Development/TeamEffect"
+alias dotfiles="cd ~/dotfiles"
+
+# Second brain
+alias sb="cd ~/SecondBrain"
+alias sbnv="cd ~/SecondBrain && nvim"
+
+# Misc
+alias ll="ls -lah"
+alias la="ls -lah"
+alias ls="eza -lh --group-directories-first --icons"
+alias lf="yazi"
+
+# I3
+alias i3config="nvim ~/.config/i3/config"
+
+# Zellij
+alias zj="zellij"
+alias zka="zellij ka -y"
+alias zte="zellij --layout ~/dotfiles/zellij/.config/zellij/templates/teameffect.kdl"
+
+# Docker
+alias dcr="docker-compose run"
+alias dc="docker-compose"
+
+# Kamal
+alias kaeri="kamal app exec --reuse -i -c config/deploy.production.yml"
+
+# Git commands
+alias gcam!="git add . && git commit -am"
+alias gaa="git add ."
+alias gst="git status"
+alias gss="git status -s"
+alias gd="git diff"
+alias g="git"
+alias gcheck="git checkout"
+
+# Helping with typos
+alias brwe="brew"
+
+# Get week number
+alias week="date +%V"
+
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# Lock the computer - not signoff!
+alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Rails development
+alias r="rails"
+alias db:drop="rails db:drop"
+alias db:setup="rails db:setup"
+alias cop="rubocop"
+alias be="bundle exec"
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en0"
+alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
+
+# List of directories
+alias lsd='ls -l | grep "^d"'
+
+# LazyGit & LazyDocjer
+alias lg='lazygit'
+alias ld='lazydocker'
+
+# Nvim
+alias nv="nvim"
+alias v="nvim"
+
+# One of @janmoesen’s ProTip™s
+for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
+  alias "$method"="lwp-request -m '$method'"
+done
