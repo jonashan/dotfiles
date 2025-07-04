@@ -82,7 +82,7 @@ alias ld='lazydocker'
 
 # Nvim
 alias nv="nvim"
-alias v="nvim"
+alias n="nvim"
 
 # One of @janmoesen’s ProTip™s
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
