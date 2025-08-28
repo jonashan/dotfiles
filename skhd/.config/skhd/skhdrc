@@ -31,15 +31,12 @@ ctrl + shift + alt - left : yabai -m window --swap west
 ctrl + shift + alt - right : yabai -m window --swap east
 
 # Focus window
-ctrl + alt - j : yabai -m window --focus south
-ctrl + alt - k : yabai -m window --focus north
-ctrl + alt - h : yabai -m window --focus west
-ctrl + alt - l : yabai -m window --focus east
-ctrl + alt - down : yabai -m window --focus south
-ctrl + alt - up : yabai -m window --focus north
-ctrl + alt - left : yabai -m window --focus west
-ctrl + alt - right : yabai -m window --focus east
-
-# Application shortcuts
-shift - return : /Applications/kitty.app/Contents/MacOS/kitty --directory=$HOME
+shift + alt - j : yabai -m window --focus south
+shift + alt - k : yabai -m window --focus north
+shift + alt - h : yabai -m window --focus west
+shift + alt - l : yabai -m window --focus east
+shift + alt - down : yabai -m window --focus south
+shift + alt - up : yabai -m window --focus north
+shift + alt - left : yabai -m window --focus west
+shift + alt - right : yabai -m window --focus east
 
