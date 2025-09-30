@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+WORKTREES_DIR="./worktrees/"
+
+main() {
+  case "${1-}" in
+  work:issue)
+    : "${2?Usage: $0 work:issue <session>}"
+    tmux_start "$2"
+    tmux_command "$2" "worktree new $2 && cd worktrees/$2 && mise trust"
+    tmux_switch "$2"
+    ;;
+  *)
+    echo "Usage: $0 work:issue <session>" >&2
+    exit 1
+    ;;
+  esac
+}
+
+tmux_start() {
+  local session=$1
+  if ! tmux has-session -t "$session" 2>/dev/null; then
+    tmux new-session -d -s "$session" -n main
+  fi
+}
+
+tmux_switch() {
+  local session=$1
+  if [[ -n ${TMUX-} ]]; then
+    tmux switch-client -t "$session" # inside tmux
+  else
+    tmux attach -t "$session" # outside tmux
+  fi
+}
+
+tmux_command() {
+  local session=$1
+  local cmd=$2
+  tmux send-keys -t "$session:1" "$cmd" C-m
+}
+
+main "$@"
