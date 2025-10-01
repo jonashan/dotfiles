@@ -22,7 +22,7 @@ main() {
 tmux_start() {
   local session=$1
   if ! tmux has-session -t "$session" 2>/dev/null; then
-    tmux new-session -d -s "$session" -n main
+    tmux new-session -d -s "$session" -n claude
   fi
 }
 
@@ -38,7 +38,7 @@ tmux_switch() {
 tmux_command() {
   local session=$1
   local cmd=$2
-  tmux send-keys -t "$session:1" "$cmd" C-m
+  tmux send-keys -t "$session:claude" "$cmd" C-m
 }
 
 main "$@"
