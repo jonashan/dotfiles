@@ -9,7 +9,7 @@ main() {
     : "${2?Usage: $0 work:issue <session>}"
     tmux_start "$2"
     tmux_command "$2" "worktree new $2 && cd worktrees/$2 && mise trust"
-    tmux_command "$2" "claude '/issue-implement $2. Make sure to make a plan first and have me approve it before starting. When you are done. Please commit, and make a pull-request where you briefly and precisely descript what is implemented. Declare at the top of the description that it is implemented and described by AI. Now wait for coderabbit to the a review, and then implement or comment on the review comments, remember to declare yourself as an ai'"
+    tmux_command "$2" "claude '/issue-implement $2. Make sure to make a plan first using agent @agent-tech-stack-advisor and have me approve it before starting. When you are done. Please document the changes using @agent-doc-architect and commit, and make a pull-request where you briefly and precisely descript what is implemented. Declare at the top of the description that it is implemented and described by AI. Now sleep for 15 minutes and check the PR for coderabbit to the a review, and then implement or comment on the review comments, remember to declare yourself as an ai'"
     tmux_switch "$2"
     ;;
   *)
