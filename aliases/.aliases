@@ -3,6 +3,7 @@ alias cask="brew cask"
 alias dev="cd ~/Development"
 alias bindev="./bin/dev"
 alias bd="./bin/dev"
+alias oc="opencode"
 
 # Directories
 alias cd="z"
@@ -76,7 +77,7 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 # List of directories
 alias lsd='ls -l | grep "^d"'
 
-# LazyGit & LazyDocjer
+# LazyGit & LazyDocker
 alias lg='lazygit'
 alias ld='lazydocker'
 
